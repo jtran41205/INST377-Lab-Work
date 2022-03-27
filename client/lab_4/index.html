@@ -1,19 +1,72 @@
-YOUR NAME Lab 4: HTML Forms
+<!DOCTYPE html>
+<html lang="en">
+    <html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>JILL TRAN Lab 4</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body class = "wrapper">
+    <!-- my name-->
+    <h1 class="name">JILL TRAN Lab 4</h1>
+    <div class='menu-container'>
+      <div class='menu'>
+        <div class='date'>March 15, 2021</div>
+        <div class = 'links'>
+          <div class='demos'><a href='data.html' style="text-decoration: none;">Database Demos</a></div>
+          <div class='main_page'>Main Page</div>
+        </div>
+      </div>
+    </div>
 
-today's date
-Database Demos
-Main Page
+    <!-- Awesome logo -->
+    <div class='header-container'>
+      <div class='header'>
+        <div class='group'>Group Project Link(no site yet)</div>
+        <div class='logo'><img src='images/awesome-logo.svg'/></div>
+        <div class='social'><a href='https://github.com/jtran41205/INST377-Lab-Work' style="text-decoration: none;">My Github</a></div>
+      </div>
+    </div>
 
-Group Project Link (no site yet)
-Awesome Logo
-Github Link
+    <!-- number edits-->
+    <div class='photo-grid-container'>
+        <div class="carousel">
 
-image_1
-image_2
-image_3
-image_4
-image_5
+          <button class="carousel__button carousel__button--prev">prev</button>
 
-footer item 1
-footer item 2
-footer item 3
+                <div class="carousel__track-container">
+                    <ul class="carousel__track">
+                        <li class='carousel__slide current-slide'>
+                            <img class='carousel__item' src='images/one.svg'/>
+                        </li>
+                        <li class='carousel__slide inactive-slide'>
+                            <img class='carousel__item' src='images/two.svg'/>
+                        </li>
+                        <li class='carousel__slide inactive-slide'>
+                            <img class='carousel__item' src='images/three.svg'/>
+                        </li>
+                        <li class='carousel__slide inactive-slide'>
+                            <img class='carousel__item' src='images/four.svg'/>
+                        </li>
+                        <li class='carousel__slide inactive-slide'>
+                            <img class='carousel__item' src='images/five.svg'/>
+                        </li>
+						
+					
+
+                    </ul>
+                </div>
+          <button class="carousel__button carousel__button--next">next</button>    
+            
+        </div>
+    </div>
+      
+      <div class='footer'>
+        <div class='footer-item footer-one'>footer item 1</div>
+        <div class='footer-item footer-two'>footer item 2</div>
+        <div class='footer-item footer-three'>footer item 3</div>
+      </div>
+    
+    <script src="./script.js"></script>
+    </body>
+  </html>
